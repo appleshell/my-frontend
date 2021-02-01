@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   someSidebar: {
     HTML: ["html/html-tag"],
-    CSS: ["CSS/css-selector"],
+    CSS: ["CSS/css-layout", "CSS/css-selector"],
     Javascript: ["JS/data-type"],
     Typescript: ["TS/type-interface"],
     React: ["React/lifecycle"],
