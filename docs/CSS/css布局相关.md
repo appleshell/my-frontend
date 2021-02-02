@@ -19,3 +19,9 @@ id: css-layout
 4. `display: table; margin: 0 auto;`
 
 > ## 实现一个元素的垂直居中
+
+- 纯文字类，使用`line-height`；
+- 绝对定位 + transform
+- flex布局
+- 绝对定位 + margin-top: `margin-left: -height/2;`
+- table布局：父元素,`display: table`；子元素：`display: table-cell;vertical-align: middle`
