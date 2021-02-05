@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/html/html-tag',
+          to: 'docs/CSS/css布局相关',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
