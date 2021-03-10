@@ -9,6 +9,12 @@ title: css布局相关
 
 ## BFC
 
+块级格式化上下文
+
+设置了形成BFC属性的元素，是一个独立的渲染区域，内部的渲染元素不会影响边界以外的元素。
+
+常见的形成BFC的条件：float不是none，position是absolute或fixed，overflow不是visible，display是flex或inline-block
+
 ## float布局及clearfix
 
 ## flex布局
@@ -35,3 +41,9 @@ title: css布局相关
 - flex布局；
 - 绝对定位 + margin-top: `margin-left: -height/2;`；
 - table布局：父元素,`display: table`；子元素：`display: table-cell;vertical-align: middle`；
+
+## 响应式
+
+1. rem
+
+使用媒体查询，来设置html元素的font-size属性
