@@ -103,3 +103,70 @@ bundle--最终输出的文件
   DllReferencePlugin -- 使用dll文件，后面打包，就通过这个插件来使用打包过的文件
 
 优化产出代码--产品性能
+
+体积更小；合理分包，不重复加载；速度更快、内存使用更少
+
+- 小图片base54
+
+- bundle加hash
+
+- 懒加载
+
+- 提取公共代码
+
+- IgnorePlugin
+
+- 使用CDN加速  配置publicPath
+
+- 使用production，mode = production时
+
+  自动会压缩代码
+
+  Vue，React等会自动删除调试代码（如开发环境warning）
+
+  自动启用Tree-Shaking（ES Module可以，commonjs不可以）
+
+- Scope Hosting
+
+  多个文件被打包进一个函数，不用每个文件打成一个函数，代码体积更小
+
+  创建函数作用域更少
+
+  代码可读性更好
+
+
+
+ES6 Module和commonjs
+
+ES6 Module是静态引入，编译时引入，不能放在条件判断中
+
+而Commonjs是动态引入，执行时引入，可以放在条件判断中。
+
+webpack打包是编译过程，因此只能用ES6 Module来做tree-shaking
+
+
+
+-----------------------------------------------------------
+
+webpack常见面试题
+
+1. 前端项目为什么要进行构建和打包
+
+2. module chunk bundle的区别
+
+3. loader和plugin的区别
+
+4. 常见的loader和plugin
+
+5. webpack和babel的区别
+
+6. 如何产出一个lib
+
+7. babel-polyfill和babel-runtime的区别
+
+8. webpack如何实现懒加载
+
+9. 为何Proxy不能被polyfill
+
+10. webpack性能优化
+
