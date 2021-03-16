@@ -3,6 +3,10 @@ title: babel学习
 ---
 
 
+## 基本配置
+
+  presets，plugin
+
 
 
 ## babel-polyfill
