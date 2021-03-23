@@ -20,3 +20,4 @@ useMemo 缓存数据，useCallback 缓存函数
 
 规范和注意事项
 
+[闭包陷阱](http://www.zyiz.net/tech/detail-139876.html)
