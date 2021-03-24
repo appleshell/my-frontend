@@ -6,6 +6,7 @@ title: redux及其相关
 
 ## Redux
 
+[Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
 [手写一个Redux，深入理解其原理](https://segmentfault.com/a/1190000023084074)
 [createStore的源码传送门](https://github.com/reduxjs/redux/blob/master/src/createStore.ts)
 [深入理解Redux Middleware](https://mp.weixin.qq.com/s/3yoHo6UXI2VOPO9zWI2aCQ)

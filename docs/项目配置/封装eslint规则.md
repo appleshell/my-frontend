@@ -14,7 +14,7 @@ title: 封装eslint规则
 
 base 规则主要包括`eslint-plugin-prettier`和自定义的一些规则
 
-react 规则主要扩展自`elint-config-react`、`elint-config-react-hooks`、`eslint-config-alloy/react`和`eslint-config-prettier/react`
+react 规则主要扩展自`eslint-config-react`、`eslint-config-react-hooks`、`eslint-config-alloy/react`和`eslint-config-prettier/react`
 
 4. 开发完毕之后就可以发布到 npm。
 

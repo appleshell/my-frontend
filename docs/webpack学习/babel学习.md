@@ -7,8 +7,6 @@ title: babel学习
 
   presets，plugin
 
-
-
 ## babel-polyfill
 
 为不兼容js新语法，新API的运行环境提供兼容方案
@@ -26,3 +24,5 @@ babel-polyfill按需引入，在.babelrc中配置，降低打包的体积
 ## babel-runtime
 
 babel-polyfill会污染全局环境，babel-runtime可以解决这个问题，通过自定义方法名。比如在开发第三方库的时候，一定要使用babel-runtime
+
+[babel corejs@3 是如何按需polyfill原型对象方法的](https://zhuanlan.zhihu.com/p/139359864)
