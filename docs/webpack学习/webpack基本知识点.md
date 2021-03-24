@@ -41,6 +41,7 @@ resolve
 plugin
   HTMLWebpackPlugin
   miniCssextractPlugin，抽离css也要用hash
+  HotModuleReplacementPlugin
 optimization  优化，
   压缩css
   minimizer：TerserJSPlugin   OptimizeCSSAssertPlugin 
