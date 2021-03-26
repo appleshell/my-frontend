@@ -4,7 +4,7 @@ title: 封装eslint规则
 
 为了规范代码质量和风格，通常我们会在项目中引入 eslint。在团队中，为了统一多人协作过程中的代码规范，我们通常会制定一份 eslint 规则配置在项目中，下面简单介绍一下如何封装一份 eslint 规则。
 
-[代码仓库]()
+[代码仓库](https://github.com/appleshell/eslint-config-myll)
 
 1. `npm init`初始化项目，注意项目命名的规则是`eslint-config-*`。
 
