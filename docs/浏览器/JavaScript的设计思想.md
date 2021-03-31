@@ -115,4 +115,4 @@ V8 提供一个 ToPrimitive 方法，其作用是将 a 和 b 转换为原生基�
 
 2. 如果 valueOf 没有转换成功，就会使用 toString 方法的返回值
 
-3. 如果两个方法都不返回基本类型，便会出发 TypeError 的错我
+3. 如果两个方法都不返回基本类型，便会出发 TypeError 的错误
