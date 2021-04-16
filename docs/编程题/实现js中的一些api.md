@@ -6,6 +6,12 @@ title: 实现js中的一些api
 
 具体到js中的api，首先要理解这些api的功能是什么，然后要清楚这些api的入参和返回值。
 
+## Array中的一些API
+
 ### 实现map方法
 
 ### 实现reduce方法
+
+### 实现filter方法
+
+### 实现some和every方法
