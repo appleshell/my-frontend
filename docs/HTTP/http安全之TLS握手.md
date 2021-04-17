@@ -48,4 +48,4 @@ https 开头的网址输入后，浏览器从 URI 中拿到协议名和域名，
 
 ### RSA 握手
 
-其与ECDHE握手的以主要区别是，`Pre-Master`不用算法生成，而是客户端申城随机数，通过`Client Key Exchange`消息发给服务器。这样就不会有`Server Key Exchange`消息。
+其与ECDHE握手的以主要区别是，`Pre-Master`不用算法生成，而是客户端生成随机数，通过`Client Key Exchange`消息发给服务器。这样就不会有`Server Key Exchange`消息。
