@@ -15,3 +15,19 @@ title: 实现js中的一些api
 ### 实现filter方法
 
 ### 实现some和every方法
+
+### 实现call
+
+### 实现apply
+
+### 实现bind
+
+函数柯里化的运用
+
+```js
+Function.prototype.mybind = function(context, ...args) {
+  return (...rest) => this.call(context, ...args, ...rest)
+}
+```
+
+### 用Generator函数实现async/await

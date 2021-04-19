@@ -10,6 +10,8 @@ promise
 
 async/await
 
+理解async/await之前，一定要理解Generator函数
+
 微任务和宏任务
 
   宏任务和微任务的一个重要区别：微任务（Promise，async/await）是ES6规定的内容，而宏任务（定时器，XMLHttpRequest，DOM事件）是W3C规定的内容。
