@@ -1,5 +1,5 @@
 ---
-title: webpack基本知识点
+title: webpack使用的基本知识点
 ---
 
 ## 基本配置
