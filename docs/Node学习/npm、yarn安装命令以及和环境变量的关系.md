@@ -39,3 +39,15 @@ npm 和 yarn 在安装时，会在自动设置它们的环境变量；它们安�
 [npx 使用教程](https://www.ruanyifeng.com/blog/2019/02/npx.html)
 
 [npm 文档：npx](https://docs.npmjs.com/cli/v7/commands/npx)
+
+## npm link
+
+npm link是把包创建了一个映射（也可以理解成是快捷方式），放到了全局或者项目的node_modules中。所以当修改源文件时，再执行包的命令，马上就会生效。
+
+其实，我们`npm install`的时候，包被安装在`node_modules`下，在linux下，同时在`.bin`中会生成一个映射脚本；在windows下，则会在`.bin`下生成`.cmd`文件。这些行为都与npm link类似。
+
+参考：
+
+[The magic behind npm link](https://medium.com/@alexishevia/the-magic-behind-npm-link-d94dcb3a81af)
+
+[npm link详解](https://champyin.com/2019/08/27/npm-link%E8%AF%A6%E8%A7%A3/)
