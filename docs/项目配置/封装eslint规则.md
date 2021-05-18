@@ -31,3 +31,5 @@ npm publish // publish 时会以 package.js 里 name 属性为包名
 5. 在项目中用`npm i xxx`来安装，在`.eslintrc`文件中配置就完成了。
 
 关于 eslint 如何工作的，看这篇文章[ESLint 工作原理探讨](https://blog.fundebug.com/2019/05/22/understand-eslint/)
+
+[ESLint配置文件.eslintrc参数说明](https://gist.github.com/rswanderer/29dc65efc421b3b5b0442f1bd3dcd046)，介绍了字段的含义。
