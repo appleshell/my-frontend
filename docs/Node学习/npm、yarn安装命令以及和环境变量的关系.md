@@ -12,6 +12,10 @@ title: npm、yarn安装命令以及和环境变量的关系
 
 npm 和 yarn 在安装时，会在自动设置它们的环境变量；它们安装的全局包，就会放在它们环境变量对应的目录下面。
 
+通过`yarn global dir`可以获取yarn全局安装的包数据的目录路径，`yarn global bin`可以获取yarn全局安装的工具包的可执行文件的目录路径
+
+通过`npm config get prefix`可以获取npm全局安装的工具包的可执行文件的目录路径，这个路径下`node_modules`中就是全局安装的包的数据。
+
 ## 安装的本地包，即仅仅是项目依赖包
 
 在项目中，命令都定义在`package.json`文件中的`scripts`属性中，执行`scripts`中的命令时，npm 默认会把`node_modules/.bin`添加到环境变量中，这样我们执行的实际是当前项目的`node_modules/.bin`目录下的命令。
