@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/CSS/css布局相关',
+          to: 'docs/React/hooks',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -85,7 +85,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          // sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
