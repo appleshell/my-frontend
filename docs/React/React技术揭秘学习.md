@@ -37,3 +37,7 @@ title： React技术揭秘学习
    - Renderer（渲染器）-- 负责将变化的组件渲染到页面上
 
     react16的Reconciler采用Fiber架构
+
+### Fiber
+
+1. 代数效应
