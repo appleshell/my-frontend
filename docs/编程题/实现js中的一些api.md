@@ -10,7 +10,51 @@ title: 实现js中的一些api
 
 ### 实现map方法
 
+```js
+Array.prototype.myMap = function(callback, thisArg) {
+  const arr = this
+  let res = []
+
+  for(let i = 0; i < arr.length; i++) {
+    let res = callback(arr[i], i, arr)
+    res.push(res)
+  }
+
+  return res
+}
+
+Array.prototype.myMap = function(callback, thisArg) {
+  const arr = this
+
+  const result = arr.reduce((accu, cur, i, arr) => {
+    let res = callback.call(thisArg, cur, i, arr)
+    accu.push(res)
+    return accu
+  }, [])
+
+  return result
+}
+```
+
 ### 实现reduce方法
+
+```js
+[1,2,3,4].reduce((acc, cur) => {
+  return acc + cur
+}, 10)
+
+Array.prototype.myReduce = function(callback, initialValue) {
+  const arr = this
+  initialValue = initialValue || arr[0]
+  let accu = initialValue
+
+  for(let i = 0; i < arr.length; i++) {
+    accu = callback(accu, arr[i], i, arr)
+  }
+
+  return accu
+}
+```
 
 ### 实现filter方法
 
@@ -30,4 +74,4 @@ Function.prototype.mybind = function(context, ...args) {
 }
 ```
 
-### 用Generator函数实现async/await
+### 用Generator函数和promise实现async/await，其实是写一个generator函数的自动执行器
