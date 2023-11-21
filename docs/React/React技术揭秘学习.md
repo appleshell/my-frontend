@@ -1,5 +1,5 @@
 ---
-title： React技术揭秘学习
+title: React技术揭秘学习
 ---
 
 不管学习 react 的源码还是 vue 的源码，我认为一定要先理解 MVC 和 MVVM 两种架构模式。

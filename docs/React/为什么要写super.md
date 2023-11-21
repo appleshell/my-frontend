@@ -1,5 +1,5 @@
 ---
-title: 为什么要写super(props)
+title: Dan_blog_为什么要写super(props)
 ---
 
 ## 四个问题
