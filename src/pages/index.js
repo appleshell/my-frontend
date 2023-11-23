@@ -6,31 +6,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
-const features = [
-  {
-    title: "About Me",
-    imageUrl: "img/about-me.svg",
-    description: <>Please check my portfolio.</>,
-    url: "https://www.google.com",
-  },
-  {
-    title: "Check More",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
-    description: <>please check my posts.</>,
-    url: "/docs",
-  },
-  {
-    title: "Powered by React",
-    imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
 function Feature({ imageUrl, title, description, url }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -90,7 +65,7 @@ function Home() {
                 title="About Me"
                 imageUrl="img/about-me.png"
                 description="Please check my portfolio."
-                url="https://www.google.com"
+                url="https://linmo.info/me/"
               />
               <Feature
                 title="Check More"
