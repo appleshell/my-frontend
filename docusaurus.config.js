@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/React/hooks',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Post',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},

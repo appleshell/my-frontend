@@ -65,7 +65,7 @@ function Home() {
                 title="About Me"
                 imageUrl="img/about-me.png"
                 description="Please check my portfolio."
-                url="https://linmo.info/me/"
+                url="https://me.linmo.info"
               />
               <Feature
                 title="Check More"
