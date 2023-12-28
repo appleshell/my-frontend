@@ -17,7 +17,7 @@ jobs:
         with:
           version: "8.12.1"
       - name: install deps
-        run: npm i
+        run: pnpm i
       - name: clear previous build
         run: npm run clear
       - name: build app
