@@ -18,6 +18,8 @@ jobs:
           version: "8.x"
       - name: install deps
         run: pnpm i
+      - name: clear previous build
+        run: pnpm run clear
       - name: build app
         run: pnpm run build
       - name: rename dist
