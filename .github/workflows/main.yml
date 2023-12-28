@@ -19,9 +19,9 @@ jobs:
       - name: install deps
         run: pnpm i
       - name: clear previous build
-        run: npm run clear
+        run: pnpm run clear
       - name: build app
-        run: npm run build
+        run: pnpm run build
       - name: rename dist
         run: mv build appleshell
       - name: copy files to server
