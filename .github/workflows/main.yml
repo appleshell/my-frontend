@@ -17,11 +17,11 @@ jobs:
         with:
           version: "8.12.1"
       - name: install deps
-        run: pnpm i
+        run: npm i
       - name: clear previous build
-        run: pnpm run clear
+        run: npm run clear
       - name: build app
-        run: pnpm run build
+        run: npm run build
       - name: rename dist
         run: mv build appleshell
       - name: copy files to server
