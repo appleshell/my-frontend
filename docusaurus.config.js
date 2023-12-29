@@ -1,32 +1,32 @@
 module.exports = {
-  title: 'Appleshell',
-  tagline: 'Hi, there! 👋 Welcome to my site!',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'appleshell', // Usually your GitHub org/user name.
-  projectName: 'appleshell', // Usually your repo name.
+  title: "Appleshell",
+  tagline: "Hi, there! 👋 Welcome to my site!",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "appleshell", // Usually your GitHub org/user name.
+  projectName: "appleshell", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Appleshell',
+      title: "Appleshell",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo-p.svg',
+        alt: "My Site Logo",
+        src: "img/logo-p.svg",
       },
       items: [
         {
-          to: 'docs/React/hooks',
-          activeBasePath: 'docs',
-          label: 'Post',
-          position: 'left',
+          to: "docs/React/hooks",
+          activeBasePath: "docs",
+          label: "Post",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: "blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/appleshell/my-frontend',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/appleshell/my-frontend",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
@@ -82,22 +82,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
           // sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
