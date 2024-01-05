@@ -1,4 +1,6 @@
-module.exports = {
+import { themes as prismThemes } from "prism-react-renderer";
+
+export default {
   title: "Appleshell",
   tagline: "Hi, there! 👋 Welcome to my site!",
   url: "https://your-docusaurus-test-site.com",
@@ -29,6 +31,9 @@ module.exports = {
           position: "right",
         },
       ],
+    },
+    prism: {
+      theme: prismThemes.dracula,
     },
     // footer: {
     //   style: 'dark',

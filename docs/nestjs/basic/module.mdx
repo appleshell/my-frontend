@@ -21,8 +21,9 @@ title: Module
       - 动态模块通常是被import的，所以`regiser`方法必须返回一个module。
       - 一个静态模块通常包含：imports，controllers，providers和exports这几个属性，动态模块返回的模块中这几个属性是可选的，但是必须包含一个`module`属性,这个属性必须和定义的动态模块的name相同。
   
-  `@Module()`装饰器传入参数的import属性，不仅可以是一个module的name，还可以是一个返回动态模块的函数调用。
-  动态模块自己也可以引入其他模块。在`register`返回值中的import属性中可引入其他的module。
+      `@Module()`装饰器传入参数的import属性，不仅可以是一个module的name，还可以是一个返回动态模块的函数调用。
+
+      动态模块自己也可以引入其他模块。在`register`返回值中的import属性中可引入其他的module。
 
   ```js
     import {DynamicModule, Module} from '@nestjs/common'
