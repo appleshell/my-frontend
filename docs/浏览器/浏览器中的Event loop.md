@@ -6,6 +6,7 @@ title: 浏览器中的Event Loop
 
 [我知道你懂 Event Loop，但你了解到多深？](https://yeefun.github.io/event-loop-in-depth/)和 [从 event loop 规范探究 javaScript 异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)，这两篇问文章是对于规范的一些解读，增加了一些例子演示。
 
+[Talk on the Event Loop](https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html)
 Event Loop 和 call stack 是密不可分的。
 
 ## 消息队列和事件循环
